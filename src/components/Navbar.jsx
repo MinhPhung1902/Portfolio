@@ -34,7 +34,10 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link to='/' className='text-white font-bold text-[1.6rem]'>Kanye Phung</Link>
+                  <Link to='/' className='text-white uppercase font-bold text-[1.2rem]'>
+                    Kanye 
+                    <br /> Phung
+                    </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -44,7 +47,7 @@ export default function Navbar() {
                         to={item.path}
                         className={classNames(
                           item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          'px-3 py-2 rounded-md text-sm font-medium mt-2'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
