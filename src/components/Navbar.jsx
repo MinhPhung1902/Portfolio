@@ -1,6 +1,9 @@
 import { Fragment } from 'react'
+import { useContext } from 'react'
+import { ThemeContext } from './themecontext'
+import Toggle from './toggle'
 import { Link } from 'react-router-dom'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 import { LightBulbIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
@@ -15,6 +18,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+  // const { theme, setTheme } = useContext(ThemeContext);
   return (
     <Disclosure as="nav">
       {({ open }) => (
@@ -34,9 +38,10 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <Link to='/' className='text-white uppercase font-bold text-[1.2rem]'>
-                    Kanye 
-                    <br /> Phung
+                  <Link to='/' className='text-white uppercase font-bold text-[1.2rem]'>                 
+                   <div className="h-11 w-11 mt-1 flex items-center justify-center bg-white rounded-full shadow-2xl">
+                     <h1 className="font-bold text-[32px] text-black">K</h1>
+                   </div>
                     </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
@@ -63,12 +68,12 @@ export default function Navbar() {
                   className="bg-gray-800 p-1 rounded-full cursor:pointer"
                 >
                   <span className="sr-only">View notifications</span>
-                  <LightBulbIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                  <LightBulbIcon className='h-6 w-6 text-white' />
                 </button>
+                {/* <Toggle /> */}
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (

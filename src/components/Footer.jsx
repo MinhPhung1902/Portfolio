@@ -1,4 +1,5 @@
 import React from 'react';
+import Toggle from './toggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -30,6 +31,9 @@ const Footer = () => {
       </div>
       <div>
         <h1 className='text-gray-400 text-sm'>Email: phungnhatminh1902@gmail.com</h1>
+      </div>
+      <div>
+        {/* <Toggle /> */}
       </div>
       <div className='flex flex-row space-x-2'>
         <h1 className='text-gray-400 hover:text-white cursor-pointer text-sm'>About Me</h1>
