@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faHtml5, faPython, faReact, faVuejs, faCss3, faSass, faBootstrap, faFigma } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faHtml5, faPython, faReact, faVuejs, faCss3, faSass, faBootstrap, faFigma, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 
 const Explore = () => {
   return <div>
@@ -20,7 +20,7 @@ const Explore = () => {
         ex aspernatur et veritatis minus!
       </p>
       <div className="mt-10 flex flex-col md:flex-row space-x-10">
-        <div className="mx-3 md:mx-0 flex flex-col space-y-5">
+        <div className="mx-10 md:mx-0 flex flex-col space-y-5">
       <div className='bg-black border-gray-400 border-[1.2px] rounded-[1px]'>
           <div className='flex flex-row  border-gray-400 border-b-[1px]'>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
@@ -52,66 +52,73 @@ const Explore = () => {
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
-              <div className='ml-[5.2rem] mt-[6px] bg-[#111] border-x-[1px] border-t-[1px] rounded-sm'>
-                  <p className='px-5'>localhost:3000</p>
+              <div className='ml-[3rem] md:ml-[5.2rem] mt-[6px] bg-[#111] border-x-[1px] border-t-[1px] rounded-sm'>
+                  <p className='px-2  md:px-5'>localhost:3000</p>
               </div>
           </div>
           <div className='bg-[#111]'>
-           <h1 className="text-center text-[3rem] py-[60px]">Hello world</h1>
+           <h1 className="text-center text-[3rem] py-[60px] text-white">Hello world</h1>
                      </div>
       </div>
       </div>
       <div className="mx-3 mt-10 md:mx-0 md:mt-0 flex flex-col">
         <div className="flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">HTML</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[22rem] md:w-[27rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[18rem] md:w-[27rem]"></div>
           </div>
         </div>
         <div className="mt-2 flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">CSS (with Tailwind, Bootstrap, Sass)</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[22rem] md:w-[28rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[18.5rem] md:w-[28rem]"></div>
           </div>
         </div>
         <div className="mt-2 flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">JavaScript ES6</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[16rem] md:w-[20rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[15rem] md:w-[20rem]"></div>
           </div>
         </div>
         <div className="mt-2 flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">Python</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[12.5rem] md:w-[16rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[10.5rem] md:w-[16rem]"></div>
+          </div>
+        </div>
+        <div className="mt-2 flex flex-col space-y-1">
+          <h1 className="font-bold text-[1.125rem]">Figma</h1>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[15rem] md:w-[20rem]"></div>
           </div>
         </div>
         <div className="mt-2 flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">ReactJS</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[16.5rem] md:w-[23rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[12.5rem] md:w-[23rem]"></div>
           </div>
         </div>
         <div className="mt-2 flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem]">VueJS</h1>
-          <div className="h-2 w-[24rem] md:w-[30rem] bg-gray-400">
-              <div className="bg-cyan-400 h-2 w-[13.1rem] md:w-[16rem]"></div>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[10.5rem] md:w-[16rem]"></div>
           </div>
         </div>
       </div>
       </div>
-      <div>
-          <h1 className="mt-10 text-center font-bold text-[1.2rem]">All tech</h1>
-      <div className='mt-5 flex flex-row space-x-5'>
-      <FontAwesomeIcon icon={faHtml5}  className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faCss3} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faSass} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faBootstrap} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faJs} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faPython} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faFigma} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faReact} className='text-white h-8 w-8 cursor-pointer'/>
-      <FontAwesomeIcon icon={faVuejs} className='text-white h-8 w-8 cursor-pointer'/>
+      <div className='flex flex-col items-center justify-center max-w-[20rem] md:max-w-full py-10'>
+          <h1 className="mt-10 text-center font-bold text-[1.2rem] text-white">All tech</h1>
+      <div className='grid grid-cols-4 gap-5 mt-5 sm:flex sm:space-x-3'>
+      <FontAwesomeIcon icon={faHtml5}  className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faCss3} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faSass} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faBootstrap} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faPython}  className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faJs} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faFigma} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faReact} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faVuejs} className='text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faNodeJs} className='text-white h-10 w-10 cursor-pointer'/>
       </div>
       </div>
     </div>

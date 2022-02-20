@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import ExplorePage from './pages/ExplorePage';
 import ContactPage from './pages/ContactPage';
 import ProjectsPage from './pages/ProjectsPage';
+import Tip from './pages/Tip';
 import './index.css'
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
           <Route path='/Explore' element={<ExplorePage/>}></Route>
           <Route path='/Projects' element={<ProjectsPage />}></Route>
           <Route path='/Contact' element={<ContactPage />}></Route>
+          <Route path='/Tip' element={<Tip />}></Route>
       </Routes>
   </div>;
 };

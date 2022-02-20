@@ -26,10 +26,14 @@ const Home = () => {
       </h1>
       <div className="mt-5 flex flex-row space-x-3 items-center justify-center">
         <button className='text-black hover:text-white bg-white hover:bg-black border-transparent hover:border-white border-[1px] rounded-md px-10 py-3'>
+          <Link to='/Explore'>
           Explore me
+          </Link>
         </button>
         <button className='text-gray-400 hover:text-white bg-black  border-gray-400 border-[1px] hover:border-white rounded-md px-10 py-3'>
+          <Link to='/Contact'>
           Contact me
+          </Link>
         </button>
       </div>
       <p className='text-center text-gray-400 mt-10 mx-10 lg:mx-40'>

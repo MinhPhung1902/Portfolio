@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Toggle from './toggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faFacebookF , } from '@fortawesome/free-brands-svg-icons';
@@ -36,10 +37,10 @@ const Footer = () => {
         {/* <Toggle /> */}
       </div>
       <div className='flex flex-row space-x-2'>
-        <h1 className='text-gray-400 hover:text-white cursor-pointer text-sm'>About Me</h1>
-        <h1 className='text-gray-400 hover:text-white cursor-pointer text-sm'>Contact</h1>
-        <h1 className='text-gray-400 hover:text-white cursor-pointer text-sm'>Chat</h1>
-        <h1 className='text-gray-400 hover:text-white cursor-pointer text-sm'>Tip me</h1>
+        <Link to='/' className='text-gray-400 hover:text-white cursor-pointer text-sm'>About Me</Link>
+        <Link to='/Contact' className='text-gray-400 hover:text-white cursor-pointer text-sm'>Contact</Link>
+        <a href='https://www.facebook.com/nhatminh.phung.192/' className='text-gray-400 hover:text-white cursor-pointer text-sm'>Chat</a>
+        <Link to='/Tip' className='text-gray-400 hover:text-white cursor-pointer text-sm'>Tip me</Link>
       </div>
     </div>
     </div>
