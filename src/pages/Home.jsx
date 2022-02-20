@@ -22,12 +22,12 @@ const Home = () => {
       <h1 className="font-extrabold text-[3rem] md:text-[5rem] lg:text-[7rem]">
         Kanye Phung 
         <br />
-       {/* <span className='animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>Front-end  </span> 
-       <span className='animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>developer </span>  */}
-       <div className='flex flex-col md:flex-row space-x-0 md:space-x-5 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
+       <span className='animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>Front-end  </span> 
+       <span className='animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>developer </span> 
+       {/* <div className='flex flex-col md:flex-row space-x-0 md:space-x-5 animate-pulse text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
             <h1>Front-end</h1>
             <h1>Developer</h1>
-       </div>
+       </div> */}
       </h1>
       <div className="mt-5 flex flex-row space-x-3 items-center justify-center">
         <button className='text-black hover:text-white bg-white hover:bg-black border-transparent hover:border-white border-[1px] rounded-md px-10 py-3'>
