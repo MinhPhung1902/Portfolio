@@ -88,7 +88,9 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
+                  <Link to={item.path}>                 
                   {item.name}
+                  </Link>
                 </Disclosure.Button>
               ))}
             </div>
