@@ -22,7 +22,7 @@ const Explore = () => {
       <div className="mt-10 flex flex-col md:flex-row space-x-10">
         <div className="mx-10 md:mx-0 flex flex-col space-y-5">
       <div className='bg-white dark:bg-black border-black dark:border-gray-400 border-[1.2px] rounded-[1px]'>
-          <div className='flex flex-row  border-gray-400 border-b-[1px]'>
+          <div className='flex flex-row border-black dark:border-gray-400 border-b-[1px]'>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
