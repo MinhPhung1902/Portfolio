@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return <div>
     <div className='flex flex-col items-center justify-center space-y-5 font-sans'>
-    <div className='mt-10 w-10 h-10 rounded-full bg-gradient-to-r  from-orange-500 to-yellow-500 text-black font-sans'>
+    <div className='mt-10 w-10 h-10 rounded-full bg-gradient-to-r  from-orange-500 to-yellow-500 text-white dark:text-black font-sans'>
         <h1 className='text-center font-[16px] mt-2'>3</h1>
       </div>
       <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-500 ">Contact</h1>
@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
     <form className='font-sans'>
   <div className="min-h-screen mx-10 md:px-20">
-    <div className="rounded-md px-6 py-10 max-w-2xl mx-auto">
+    <div className="px-6 py-10 max-w-2xl mx-auto bg-white shadow-xl rounded-3xl">
       <div className="space-y-4">   
       <div className="flex  flex-col space-y-2 md:space-y-0 md:flex-row space-x-0 md:space-x-5">
       <div>

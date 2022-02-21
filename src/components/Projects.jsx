@@ -12,7 +12,7 @@ const Projects = () => {
     
   ]
   return <div className='mt-10 flex flex-col items-center justify-center space-y-5 font-sans'>
-    <div className='w-10 h-10 rounded-full bg-gradient-to-r  from-pink-500 to-fuchsia-700 text-black font-sans'>
+    <div className='w-10 h-10 rounded-full bg-gradient-to-r  from-pink-500 to-fuchsia-700 text-white dark:text-black font-sans'>
         <h1 className='text-center font-[16px] mt-2'>2</h1>
       </div>
       <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to to-fuchsia-700 ">My projects</h1>

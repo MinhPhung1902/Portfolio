@@ -8,7 +8,7 @@ const Explore = () => {
       <h1 className='text-center text-black dark:text-white font-bold text-[1.2rem]'>
         Explore the Phung Way
       </h1>
-      <div className='mt-5 w-10 h-10 rounded-full bg-gradient-to-r  from-cyan-500 to-blue-500 text-black font-sans'>
+      <div className='mt-5 w-10 h-10 rounded-full bg-gradient-to-r  from-cyan-500 to-blue-500 text-white dark:text-black font-sans'>
         <h1 className='text-center font-[16px] mt-2'>1</h1>
       </div>
       <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to to-blue-500 ">My Skills</h1>
