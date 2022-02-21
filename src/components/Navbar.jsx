@@ -28,7 +28,7 @@ export default function Navbar() {
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-black hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -40,8 +40,8 @@ export default function Navbar() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <Link to='/' className='text-white uppercase font-bold text-[1.2rem]'>                 
-                   <div className="h-11 w-11 mt-1 flex items-center justify-center bg-white rounded-full shadow-2xl">
-                     <h1 className="font-bold text-[32px] text-black">K</h1>
+                   <div className="h-11 w-11 mt-1 flex items-center justify-center bg-black dark:bg-white rounded-full shadow-2xl">
+                     <h1 className="font-bold text-[32px] text-white dark:text-black">K</h1>
                    </div>
                     </Link>
                 </div>
@@ -52,7 +52,7 @@ export default function Navbar() {
                         key={item.nLinkme}
                         to={item.path}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
                           'px-3 py-2 rounded-md text-sm font-medium mt-2'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -83,7 +83,7 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

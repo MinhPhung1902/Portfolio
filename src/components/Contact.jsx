@@ -21,23 +21,23 @@ const Contact = () => {
       <div className="space-y-4">   
       <div className="flex  flex-col space-y-2 md:space-y-0 md:flex-row space-x-0 md:space-x-5">
       <div>
-          <label for="name" className="text-white text-[1rem]">Name:</label>
-          <input type="text" placeholder="Name" className="ml-2 outline-none py-1 px-2 text-md  border-2 border-gray-400 rounded-md bg-[#111]" />
+          <label for="name" className="text-black dark:text-white text-[1rem]">Name:</label>
+          <input type="text" placeholder="Name" className="ml-2 outline-none py-1 px-2 text-md  border-2 border-none shadow-sm dark:border-gray-400 rounded-md bg-[#fafafa] dark:bg-[#111]" />
         </div>
         <div>
-          <label for="email" className="text-white text-[1rem]">Email:</label>
-          <input type="text" placeholder="Email" className="ml-2 outline-none py-1 px-2 text-md border-2 border-gray-400 rounded-md bg-[#111]" />
+          <label for="email" className="text-black dark:text-white text-[1rem]">Email:</label>
+          <input type="text" placeholder="Email" className="ml-2 outline-none py-1 px-2 text-md border-2 border-none shadow-sm dark:border-gray-400 rounded-md bg-[#fafafa] dark:bg-[#111]" />
         </div>       
         </div>     
         <div>
-          <label for="email" className="text-white text-[1rem]">Subject:</label>
-          <input type="text" placeholder="Subject" cols="30" rows="10" className="ml-2 outline-none py-1 px-2 text-md border-2 border-gray-400 rounded-md bg-[#111]" />
+          <label for="email" className="text-black dark:text-white text-[1rem]">Subject:</label>
+          <input type="text" placeholder="Subject" cols="30" rows="10" className="ml-2 outline-none py-1 px-2 text-md border-2 border-none shadow-sm dark:border-gray-400 rounded-md bg-[#fafafa] dark:bg-[#111]" />
         </div>   
         <div>
-          <label for="description" className="block text-white mb-2 text-lg">Description:</label>
-          <textarea placeholder="Description" cols="30" rows="10" className="w-full  p-4 border-[1px] border-gray-400 rounded-md bg-[#111] outline-none"></textarea>
+          <label for="description" className="block text-black dark:text-white mb-2 text-lg">Description:</label>
+          <textarea placeholder="Description" cols="30" rows="10" className="w-full  p-4 border-[1px] border-none shadow-sm dark:border-gray-400 rounded-md bg-[#fafafa] dark:bg-[#111] outline-none"></textarea>
         </div>
-        <button className="mt-5 px-6 py-2 mx-auto block rounded-md text-lg bg-white text-black border-gray-400 border-0 hover:border-[1px] hover:bg-transparent hover:text-gray-400">
+        <button className="mt-5 px-6 py-2 mx-auto block rounded-md text-lg bg-black dark:bg-white text-white dark:text-black border-black hover:bg-white hover:text-black dark:hover:border-gray-400 border-2 dark:hover:bg-transparent dark:hover:text-gray-400">
           Submit
         </button>
       </div>

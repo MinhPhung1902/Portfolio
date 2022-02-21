@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
-  return <div className='text-white font-sans'>
+  return <div className='text-black dark:text-white font-sans'>
     <Navbar />
     <div className='flex flex-col items-center justify-center text-center min-h-screen mx-0 lg:mx-20'>
       {/* <div className="flex flex-row bg-gray-400 shadow-xl">
@@ -30,18 +30,18 @@ const Home = () => {
        </div> */}
       </h1>
       <div className="mt-5 flex flex-row space-x-3 items-center justify-center">
-        <button className='text-black hover:text-white bg-white hover:bg-black border-transparent hover:border-white border-[1px] rounded-md px-10 py-3'>
+        <button className='text-white hover:text-black  dark:text-black dark:bg-white  dark:hover:text-white bg-black hover:bg-white dark:hover:bg-black border-transparent border-black hover:border-black dark:hover:border-white border-[1px] rounded-md px-10 py-3'>
           <Link to='/Explore'>
           Explore me
           </Link>
         </button>
-        <button className='text-gray-400 hover:text-white bg-black  border-gray-400 border-[1px] hover:border-white rounded-md px-10 py-3'>
+        <button className='text-black bg-white dark:text-gray-400  dark:bg-black  border-gray-400 border-[1px] hover:border-black dark:hover:border-white rounded-md px-10 py-3'>
           <Link to='/Contact'>
           Contact me
           </Link>
         </button>
       </div>
-      <p className='text-center text-gray-400 mt-10 mx-10 lg:mx-40'>
+      <p className='text-center  dark:text-gray-400 text-black mt-10 mx-10 lg:mx-40'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt mollitia est illo quia totam iste quisquam unde exercitationem perspiciatis id et repellat, asperiores, odit animi ab in dolore autem magnam.
       </p>
     </div>

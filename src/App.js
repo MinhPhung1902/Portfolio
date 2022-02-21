@@ -8,7 +8,7 @@ import Tip from './pages/Tip';
 import './index.css'
 
 const App = () => {
-  return <div className='bg-black'>
+  return <div className='bg-white dark:bg-black'>
       <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/Explore' element={<ExplorePage/>}></Route>
