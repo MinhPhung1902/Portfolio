@@ -26,7 +26,7 @@ const Explore = () => {
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
-              <div className='ml-2 mt-[6px] border-x-[1px] border-t-[1px] rounded-sm'>
+              <div className='ml-2 mt-[6px] border-x-[1px] border-t-[1px] border-black dark:border-gray-400 rounded-sm'>
                   <p className='p-1 text-black dark:text-white'>index.js</p>
               </div>
           </div>
@@ -52,7 +52,7 @@ const Explore = () => {
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
-              <div className='ml-[3rem] md:ml-[5.2rem] mt-[6px] bg-white dark:bg-[#111] border-black border-x-[1px] border-t-[1px] rounded-sm'>
+              <div className='ml-[3rem] md:ml-[5.2rem] mt-[6px] bg-white dark:bg-[#111] border-black dark:border-gray-400 border-x-[1px] border-t-[1px] rounded-sm'>
                   <p className='px-2  md:px-5 text-black dark:text-white'>localhost:3000</p>
               </div>
           </div>

@@ -1,10 +1,8 @@
 import { Fragment } from 'react'
 import { useContext } from 'react'
-import { ThemeContext } from './themecontext'
-import Toggle from './toggle'
 import { Link } from 'react-router-dom'
 import { Disclosure } from '@headlessui/react'
-import { LightBulbIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MoonIcon, SunIcon , MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
   { name: 'Explore', href: '#', current: true, path:'/' },
@@ -19,7 +17,6 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  // const { theme, setTheme } = useContext(ThemeContext);
   return (
     <Disclosure as="nav">
       {({ open }) => (
@@ -69,7 +66,7 @@ export default function Navbar() {
                   className="bg-black dark:shadow-xl p-1 rounded-full cursor:pointer"
                 >
                   <span className="sr-only">View notifications</span>
-                  <LightBulbIcon className='h-6 w-6 text-white' />
+                  <MoonIcon className='h-6 w-6 text-white' />
                 </button>
                 {/* <Toggle /> */}
               </div>

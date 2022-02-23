@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Toggle from './toggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebookF , } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
   return <div className='bg-[#fafafa] dark:bg-[#111] py-[40px]'>
