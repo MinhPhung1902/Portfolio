@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faInstagram, faLinkedin, faSnapchat } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
   return <div>
@@ -42,6 +44,21 @@ const Contact = () => {
         </button>
       </div>
     </div>
+    <h1 className="mt-5 text-center text-black dark:text-gray-400 text-[1.2rem]">Or connect with my social media</h1>
+        <div className="mt-5 flex flex-row items-center justify-center space-x-3">
+          <a href='https://www.facebook.com/nhatminh.phung.192/'>
+          <FontAwesomeIcon icon={faFacebookF} className='text-black hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-300 h-10 w-10 cursor-pointer'/>
+          </a> 
+          <a  href='https://www.instagram.com/kanye_phung/'>
+          <FontAwesomeIcon icon={faInstagram} className='text-black hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-300 h-10 w-10 cursor-pointer'/>
+          </a> 
+          <a href='https://www.snapchat.com/add/michael_phung19?share_id=MjgxNTdD&locale=en_VN'>
+          <FontAwesomeIcon icon={faSnapchat} className='text-black hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-300 h-10 w-10 cursor-pointer' />
+          </a> 
+          <a href='https://www.linkedin.com/in/minhnhat19/'>
+          <FontAwesomeIcon icon={faLinkedin} className='text-black hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-300 h-10 w-10 cursor-pointer' />
+          </a> 
+        </div>
   </div>
 </form>
   </div>;

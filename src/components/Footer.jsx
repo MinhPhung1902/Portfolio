@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faSnapchat } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -20,6 +20,9 @@ const Footer = () => {
             </a>
             <a href='https://www.instagram.com/kanye_phung/'>
             <FontAwesomeIcon icon={faInstagram}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            </a>
+            <a href='https://www.snapchat.com/add/michael_phung19?share_id=MjgxNTdD&locale=en_VN'>
+            <FontAwesomeIcon icon={faSnapchat}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
             </a>
             <a href='https://www.linkedin.com/in/minhnhat19/'>
             <FontAwesomeIcon icon={faLinkedin}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
