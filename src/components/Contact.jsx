@@ -17,7 +17,7 @@ const Contact = () => {
       </div>
     <form className='font-sans'>
   <div className="min-h-screen mx-10 md:px-20">
-    <div className="px-6 py-10 max-w-2xl mx-auto  dark:bg-transparent shadow-xl rounded-3xl mt-5">
+    <div className="px-6 py-10 max-w-2xl mx-auto  bg-white dark:bg-transparent shadow-xl rounded-3xl mt-5">
       <div className="space-y-4">   
       <div className="flex  flex-col space-y-2 md:space-y-0 md:flex-row space-x-0 md:space-x-5">
       <div>

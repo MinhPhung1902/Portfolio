@@ -19,15 +19,15 @@ const Explore = () => {
         , eos illum 
         ex aspernatur et veritatis minus!
       </p>
-      <div className="mt-10 flex flex-col md:flex-row space-x-10">
-        <div className="mx-10 md:mx-0 flex flex-col space-y-5">
+      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 space-x-10">
+        <div className="mx-5 md:mx-0 flex flex-col space-y-5">
       <div className='bg-white dark:bg-black border-black dark:border-gray-400 border-[1.2px] rounded-[1px]'>
           <div className='flex flex-row border-black dark:border-gray-400 border-b-[1px]'>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
               <div className='ml-2 mt-[6px] border-x-[1px] border-t-[1px] border-black dark:border-gray-400 rounded-sm'>
-                  <p className='p-1 text-black dark:text-white'>index.js</p>
+                  <p className='p-1 text-black dark:text-white'>index.html</p>
               </div>
           </div>
           <div className='flex flex-row'>
@@ -37,28 +37,40 @@ const Explore = () => {
                   <p className="px-[1px] text-black dark:text-gray-400">3</p>
                   <p className="px-[1px] text-black dark:text-gray-400">4</p>
                   <p className="px-[1px] text-black dark:text-gray-400">5</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">6</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">7</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">8</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">9</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">10</p>
+                  <p className="px-[1px] text-black dark:text-gray-400">11</p>
               </div>
               <div className='bg-white dark:bg-black text-white flex flex-col'>
-                  <code className="ml-2 text-black dark:text-white"></code>
-                  <code className="ml-2 text-black dark:text-white">const <span className='text-blue-500'>hello</span>  = document.getElementbyId(<span className='text-blue-500'>'hello'</span>)  </code>
-                  <code className="ml-2 text-black dark:text-white">console.log(<span className='text-blue-500'>'hello world'</span>)</code>
-                  <code className="ml-2 text-black dark:text-white"></code>
-                  <code className="ml-2 text-black dark:text-white"></code>
+                  <code className="ml-2 text-black dark:text-white">&lt;div <span className='text-purple-500'>class:'hello world'</span>&gt;</code>
+                  <code className="ml-2 text-black dark:text-white"><span className='text-blue-500'>Hello World</span>  </code>
+                  <code className="ml-2 text-black dark:text-white">&lt;/div&gt;</code>
+                  <code className="ml-2 text-black dark:text-white">&lt;style&gt;</code>
+                  <code className="ml-2 text-black dark:text-white">.hello world &#123;</code>
+                  <code className="ml-2 text-blue-500">&nbsp;&nbsp;display: <span className='text-purple-500'>flex</span></code>
+                  <code className="ml-2 text-blue-500">&nbsp;&nbsp;align-items: <span className='text-purple-500'>center</span></code>
+                  <code className="ml-2 text-blue-500">&nbsp;&nbsp;justify-items: <span className='text-purple-500'>center</span></code>
+                  <code className="ml-2 text-blue-500">&nbsp;&nbsp;min-height:<span className='text-purple-500'>100vh</span> </code>
+                  <code className="ml-2 text-black dark:text-white">&#125;</code>
+                  <code className="ml-2 text-black dark:text-white">&lt;/style&gt;</code>
               </div>
          </div>
       </div>
-      <div className='ml-10 bg-white dark:bg-black border-black dark:border-gray-400 dark::border-gray-400 border-[1.2px] rounded-[1px]'>
+      <div className='ml-0 md:ml-[40px] bg-white dark:bg-black border-black dark:border-gray-400 dark::border-gray-400 border-[1.2px] rounded-[1px]'>
           <div className='flex flex-row border-black dark:border-gray-400 border-b-[1px]'>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
-              <div className='ml-[3rem] md:ml-[5.2rem] mt-[6px] bg-white dark:bg-[#111] border-black dark:border-gray-400 border-x-[1px] border-t-[1px] rounded-sm'>
+              <div className='ml-[3rem] md:ml-[6.25rem] mt-[6px] bg-white dark:bg-[#111] border-black dark:border-gray-400 border-x-[1px] border-t-[1px] rounded-sm'>
                   <p className='px-2  md:px-5 text-black dark:text-white'>localhost:3000</p>
               </div>
           </div>
           <div className='bg-white dark:bg-[#111]'>
-           <h1 className="text-center text-[3rem] py-[60px] text-black dark:text-white">Hello world</h1>
-                     </div>
+           <h1 className="text-center text-[2.3rem] md:text-[3rem] py-[60px] text-black dark:text-white">Hello world</h1>
+          </div>
       </div>
       </div>
       <div className="mx-3 mt-10 md:mx-0 md:mt-0 flex flex-col">
