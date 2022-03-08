@@ -118,15 +118,15 @@ const Explore = () => {
         </div>
       </div>
       </div>
-      <div className='flex flex-col items-center justify-center max-w-[20rem] md:max-w-full py-10'>
+      <div className='flex flex-col items-center justify-center max-w-[20rem] py-10'>
           <h1 className="mt-10 text-center font-bold text-[1.2rem] text-black dark:text-white">All tech</h1>
       <div className='grid grid-cols-4 gap-5 mt-5 sm:flex sm:space-x-3'>
       <FontAwesomeIcon icon={faHtml5}  className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faCss3} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faJs} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faSass} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faBootstrap} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faPython}  className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
-      <FontAwesomeIcon icon={faJs} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faFigma} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faReact} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faVuejs} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>

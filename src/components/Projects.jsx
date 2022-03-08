@@ -22,7 +22,7 @@ const Projects = () => {
         reiciendis quam corrupti veniam modi aut nulla deserunt quibusdam,</span> delectus 
         incidunt fuga minus. Ullam.
       </p>
-      <div className="p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 mx-0 md:mx-40">
+      <div className="p-10 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-7 mx-0 md:mx-40">
         {project.map((e) =>{
           return (
             <div key={e.id} className="focus:outline-none mx-2 w-72 xl:mb-0 mb-8 rounded-xl">
