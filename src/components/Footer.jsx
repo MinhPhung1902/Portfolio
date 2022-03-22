@@ -16,19 +16,19 @@ const Footer = () => {
     <div className="flex flex-col space-y-2">
       <div className='flex flex-row space-x-3'>       
             <a href='https://www.facebook.com/nhatminh.phung.192/'>
-            <FontAwesomeIcon icon={faFacebookF}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            <FontAwesomeIcon icon={faFacebookF}  className='text-black hover:text-gray-400 dark:text-gray-400 h-6 w-6 cursor-pointer dark:hover:text-white'/>
             </a>
             <a href='https://www.instagram.com/kanye_phung/'>
-            <FontAwesomeIcon icon={faInstagram}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            <FontAwesomeIcon icon={faInstagram}  className='text-black hover:text-gray-400 dark:text-gray-400 h-6 w-6 cursor-pointer dark:hover:text-white'/>
             </a>
             <a href='https://www.snapchat.com/add/michael_phung19?share_id=MjgxNTdD&locale=en_VN'>
-            <FontAwesomeIcon icon={faSnapchat}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            <FontAwesomeIcon icon={faSnapchat}  className='text-black hover:text-gray-400 dark:text-gray-400 h-6 w-6 cursor-pointer dark:hover:text-white'/>
             </a>
             <a href='https://www.linkedin.com/in/minhnhat19/'>
-            <FontAwesomeIcon icon={faLinkedin}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            <FontAwesomeIcon icon={faLinkedin}  className='text-black hover:text-gray-400 dark:text-gray-400 h-6 w-6 cursor-pointer dark:hover:text-white'/>
             </a>
             <a href='https://github.com/MinhPhung1902'>
-            <FontAwesomeIcon icon={faGithub}  className='text-black dark:text-gray-400 h-6 w-6 cursor-pointer hover:text-white'/>
+            <FontAwesomeIcon icon={faGithub}  className='text-black hover:text-gray-400 dark:text-gray-400 h-6 w-6 cursor-pointer dark:hover:text-white'/>
             </a>               
       </div>
       <div>

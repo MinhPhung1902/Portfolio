@@ -49,7 +49,7 @@ export default function Navbar() {
                         key={item.nLinkme}
                         to={item.path}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
+                          item.current ? 'bg-black dark:bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
                           'px-3 py-2 rounded-md text-sm font-medium mt-2'
                         )}
                         aria-current={item.current ? 'page' : undefined}
@@ -81,7 +81,7 @@ export default function Navbar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
+                    item.current ? 'bg-black dark:bg-gray-900 text-white' : 'text-black hover:bg-black hover:text-white dark:text-gray-300 dark:hover:bg-gray-700',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}
