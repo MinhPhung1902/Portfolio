@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faHtml5, faPython, faReact, faVuejs, faCss3, faSass, faBootstrap, faFigma, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import { faJs, faHtml5, faPython, faReact, faVuejs, faCss3, faSass, faBootstrap, faFigma, faNodeJs, faWordpress, faPhp } from '@fortawesome/free-brands-svg-icons';
 
 const Explore = () => {
   return <div>
@@ -19,7 +19,7 @@ const Explore = () => {
         , eos illum 
         ex aspernatur et veritatis minus!
       </p>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 space-x-10">
+      <div className="mt-10 mx-[5px] grid grid-cols-1 md:grid-cols-2 space-y-10 md:space-x-10">
         <div className="mx-5 md:mx-0 flex flex-col space-y-5">
       <div className='bg-white dark:bg-black border-black dark:border-gray-400 border-[1.2px] rounded-[1px]'>
           <div className='flex flex-row border-black dark:border-gray-400 border-b-[1px]'>
@@ -64,8 +64,8 @@ const Explore = () => {
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-red-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-yellow-600'></div>
               <div className='ml-2 mt-[6px] w-3 h-3 rounded-full bg-green-600'></div>
-              <div className='ml-[3rem] md:ml-[6.25rem] mt-[6px] bg-white dark:bg-[#111] border-black dark:border-gray-400 border-x-[1px] border-t-[1px] rounded-sm'>
-                  <p className='px-2  md:px-5 text-black dark:text-white'>localhost:3000</p>
+              <div className='ml-[2.5rem] sm:ml-[3.75rem] md:ml-[6.25rem] mt-[6px] bg-white dark:bg-[#111] border-black dark:border-gray-400 border-x-[1px] border-t-[1px] rounded-sm'>
+                  <p className='px-2 md:px-5 text-black dark:text-white'>localhost:3000</p>
               </div>
           </div>
           <div className='bg-white dark:bg-[#111]'>
@@ -73,7 +73,7 @@ const Explore = () => {
           </div>
       </div>
       </div>
-      <div className="mx-3 mt-10 md:mx-0 md:mt-0 flex flex-col">
+      <div className="md:mx-3 mt-10 md:mt-0 flex flex-col">
         <div className="flex flex-col space-y-1">
           <h1 className="font-bold text-[1.125rem] text-black dark:text-white">HTML</h1>
           <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
@@ -116,6 +116,18 @@ const Explore = () => {
               <div className="bg-cyan-400 h-2 w-[10.5rem] md:w-[16rem]"></div>
           </div>
         </div>
+        <div className="mt-2 flex flex-col space-y-1">
+          <h1 className="font-bold text-[1.125rem] text-black dark:text-white">Php</h1>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[13.5rem] md:w-[16rem]"></div>
+          </div>
+        </div>
+        <div className="mt-2 flex flex-col space-y-1">
+          <h1 className="font-bold text-[1.125rem] text-black dark:text-white">Wordpress</h1>
+          <div className="h-2 w-[20rem] md:w-[30rem] bg-gray-400">
+              <div className="bg-cyan-400 h-2 w-[11.5rem] md:w-[16rem]"></div>
+          </div>
+        </div>
       </div>
       </div>
       <div className='flex flex-col items-center justify-center max-w-[20rem] py-10'>
@@ -131,6 +143,8 @@ const Explore = () => {
       <FontAwesomeIcon icon={faReact} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faVuejs} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       <FontAwesomeIcon icon={faNodeJs} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faPhp} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
+      <FontAwesomeIcon icon={faWordpress} className='text-black dark:text-white h-10 w-10 cursor-pointer'/>
       </div>
       </div>
     </div>
